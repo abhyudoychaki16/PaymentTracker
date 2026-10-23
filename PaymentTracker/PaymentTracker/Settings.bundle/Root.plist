@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key><string>PSGroupSpecifier</string>
+			<key>Title</key><string>DropSplit profile</string>
+			<key>FooterText</key><string>Your name and UPI ID are shared with people when you send them a DropSplit request.</string>
+		</dict>
+		<dict>
+			<key>Type</key><string>PSTextFieldSpecifier</string>
+			<key>Title</key><string>Your name</string>
+			<key>Key</key><string>dropsplit.displayName</string>
+			<key>DefaultValue</key><string></string>
+			<key>AutocapitalizationType</key><string>Words</string>
+		</dict>
+		<dict>
+			<key>Type</key><string>PSTextFieldSpecifier</string>
+			<key>Title</key><string>UPI ID</string>
+			<key>Key</key><string>dropsplit.upiID</string>
+			<key>DefaultValue</key><string></string>
+			<key>AutocapitalizationType</key><string>None</string>
+			<key>AutocorrectionType</key><string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key><string>PSGroupSpecifier</string>
+			<key>Title</key><string>Dashboard and display</string>
+			<key>FooterText</key><string>Currency changes display only; values are not converted. UPI payments remain in INR.</string>
+		</dict>
+		<dict>
+			<key>Type</key><string>PSMultiValueSpecifier</string>
+			<key>Title</key><string>Default date range</string>
+			<key>Key</key><string>dashboard.defaultPeriod</string>
+			<key>DefaultValue</key><string>today</string>
+			<key>Titles</key><array><string>Today</string><string>7 days</string><string>30 days</string></array>
+			<key>Values</key><array><string>today</string><string>sevenDays</string><string>thirtyDays</string></array>
+		</dict>
+		<dict>
+			<key>Type</key><string>PSMultiValueSpecifier</string>
+			<key>Title</key><string>Currency</string>
+			<key>Key</key><string>payment.currencyCode</string>
+			<key>DefaultValue</key><string>INR</string>
+			<key>Titles</key><array><string>Indian rupee (INR)</string><string>US dollar (USD)</string><string>Euro (EUR)</string><string>Pound sterling (GBP)</string></array>
+			<key>Values</key><array><string>INR</string><string>USD</string><string>EUR</string><string>GBP</string></array>
+		</dict>
+		<dict>
+			<key>Type</key><string>PSGroupSpecifier</string>
+			<key>Title</key><string>Notifications</string>
+		</dict>
+		<dict>
+			<key>Type</key><string>PSToggleSwitchSpecifier</string>
+			<key>Title</key><string>DropSplit notifications</string>
+			<key>Key</key><string>dropsplit.notificationsEnabled</string>
+			<key>DefaultValue</key><true/>
+		</dict>
+		<dict>
+			<key>Type</key><string>PSGroupSpecifier</string>
+			<key>Title</key><string>Privacy</string>
+			<key>FooterText</key><string>Payment Tracker requires Face ID or your device passcode. Manage notification delivery in iOS Settings.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

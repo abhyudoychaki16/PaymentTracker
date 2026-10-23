@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.mycompany.PaymentTracker.dropsplit</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>dropsplit</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Protect access to your transaction data.</string>
+	<key>CFBundleDisplayName</key>
+	<string>Payment Tracker</string>
+</dict>
+</plist>
